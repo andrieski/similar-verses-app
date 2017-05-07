@@ -1,0 +1,11 @@
+.bible-dropdown-container {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+.float-container {
+    overflow: hidden;
+}
+.ms-Dropdown-items {
+    max-height: 200px;
+}

@@ -1,0 +1,33 @@
+.selector-container {
+    display: inline-block;
+}
+
+.selector-content-container {
+    background: white;
+    display: inline-block;
+    border: 1px solid #c8c8c8;
+    border-radius: 2px;
+}
+
+.selector-content-container:hover {
+    border: 1px solid #0078d7;
+}
+
+.selector-content-container.thin {
+    width: 75px;
+}
+
+.selector-row {
+    padding: 5px 16px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.selector-row.default-active {
+    background: #0078d7;
+    color: white;
+}
+
+.selector-row:hover:not(.default-active) {
+    background: #f4f4f4;
+}

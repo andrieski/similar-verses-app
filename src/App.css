@@ -1,0 +1,52 @@
+.app {
+    padding: 3em;
+    background: white;
+    box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
+    margin-top: -60px;
+    border-radius: 3px;
+    margin-bottom: 90px;
+}
+.disabled-primary {
+    background: #0078d7 !important;
+    cursor: default !important;
+}
+.explanation-trigger {
+    float: right;
+    margin-bottom: 20px;
+}
+.app-step .ms-Persona-imageArea {
+    z-index: 2;
+}
+.app-step-button {
+    margin-left: -20px
+}
+.related-verses-header {
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+    align-items: center;   
+}
+.related-verses-header .ms-Icon {
+    font-size: 20px;
+    color: #0078d7;     
+}
+.related-verse-container {
+    border-bottom: 1px solid hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width: 75em) {
+    .app {
+        padding: 1em;
+    }
+    .explanation-trigger {
+        float: none;
+    }
+    .my-header .logo-section img {
+        display: none;
+    }
+    .github-btn {
+        display: none;
+    }
+}

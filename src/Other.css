@@ -1,0 +1,42 @@
+/*Explanation.jsx*/
+.ui.divider {
+    font-size: 1rem;
+    border-top: 1px solid rgba(34, 36, 38, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 1rem 0rem;
+    line-height: 1;
+    height: 0em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.85);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*Utilities.jsx*/
+.my-selector-table {
+    width: 100%;
+}
+.my-selector-row td {
+    padding: 9px 16px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.my-selector-row td.verse-num {
+    width: 25px;
+    padding-right: 0px
+}
+.my-selector-row td.verse-text {
+    padding-left: 0px;
+}
+.my-active-verse {
+    background: #0078d7;
+    color: white !important;
+}
+.my-selector-row:hover:not(.my-active-verse) {
+    background: #f4f4f4;
+}

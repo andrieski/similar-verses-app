@@ -1,0 +1,34 @@
+.modal-container {
+    height: 80vh;
+    width: 80vw;
+    max-width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.modal-container .modal-header {
+    /*background: #0078d7;*/
+    color: #fff;
+    padding-left: 28px;
+}
+
+.modal-container .modal-body {
+    -webkit-box-flex: 4;
+    -ms-flex: 4 4 auto;
+    flex: 4 4 auto;
+    padding: 5px 28px;
+    padding-bottom: 28px;
+    overflow-y: auto;
+}
+
+@media only screen and (max-width: 75em) {
+    .modal-container {
+        width: 90vw;
+    }
+}

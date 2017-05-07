@@ -1,0 +1,45 @@
+table td {
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.similar-verse-table {
+    width: 100%;
+}
+
+.verse-row {
+    cursor: pointer;
+    border-bottom: 1px solid hsl(0, 0%, 92%);
+    background: white;
+}
+
+.verse-row:hover {
+    background: hsl(0, 0%, 98%);
+}
+
+.td-verse-tag {
+    width: 15%;
+    padding: 17px 10px;
+    text-align: right;
+    color: #0078d7;
+}
+
+.td-verse-text {
+    width: 85%;
+    padding: 17px 10px;
+}
+
+.td-verse-number {
+    width: 15%;
+    padding: 10px 10px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 75em) {
+    .td-verse-tag {
+        padding: 0px;
+    }
+}

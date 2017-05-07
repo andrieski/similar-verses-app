@@ -1,0 +1,26 @@
+/*Overwrite flexbox grid css*/
+.center-xs {
+    text-align: inherit;
+}
+.segment {
+    margin: 30px 0px;
+}
+.my-header {
+    padding-bottom: 80px;
+}
+.my-header .segment {
+    margin: 40px 0px;
+}
+.logo-section img {
+    height: 90px;
+    margin-right: 30px;
+}
+.logo-section {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;   
+    overflow: hidden;
+}
+.ms-Icon {
+    margin-right: 10px;
+}
