@@ -29,6 +29,9 @@
 
 @media only screen and (max-width: 75em) {
     .modal-container {
-        width: 90vw;
+        position: absolute !important;
+        height: 100vh;
+        right: 0;
+        width: 80vw;
     }
 }
