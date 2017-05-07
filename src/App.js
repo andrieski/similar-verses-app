@@ -56,9 +56,10 @@ class App extends React.Component {
             onClick={this.showModal}
           />
           <DefaultButton
+            icon="Code"
             text="View on Github"
             className="github-btn"
-            onClick={() => {}}
+            onClick={() => {location.href = "https://github.com/andrieski/similar-verses-app";}}
           />
         </div>
         <Persona className="app-step" imageInitials='1' initialsColor={ PersonaInitialsColor.magenta }>

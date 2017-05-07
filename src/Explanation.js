@@ -29,7 +29,7 @@ class Explanation extends React.Component {
             <div className="ui divider"></div>
             <p>
               <i className="ms-Icon ms-Icon--Code" aria-hidden="true"></i>NodeJS, Express, MongoDB, and React.
-              &nbsp;<Link target="_blank" href='http://dev.office.com/fabric/components/link'>View Project on Github</Link>
+              &nbsp;<Link target="_blank" href='https://github.com/andrieski/similar-verses-app'>View Project on Github</Link>
             </p>
           </div>
         </div>
