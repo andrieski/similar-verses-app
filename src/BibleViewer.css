@@ -9,3 +9,9 @@
 .ms-Dropdown-items {
     max-height: 200px;
 }
+
+@media only screen and (max-width: 75em) {
+    .ms-Dropdown-items {
+        max-height: none;
+    }
+}
